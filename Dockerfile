@@ -36,6 +36,8 @@ RUN rm -f /etc/apt/sources.list && \
 	apt-get update && \
 	apt-get install -y \
 #Packages Installation
+	default-jre \
+	default-jdk \
 	tzdata \
 	software-properties-common \
 	apt-transport-https \
